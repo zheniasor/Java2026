@@ -2,16 +2,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Добавление в телефонную книгу</title>
 </head>
 <body>
-<h1> Передача числа от клиента на сервер, возвращение этого числа, умноженного на 2.
-</h1>
-<br/>
-<form action="controller">
-    <input type="text" name="num" value="1"/>
-    <input type="submit" name="sub" value="Push"/>
-</form>
 
+<h1>Добавление записи в телефонную книгу</h1>
+
+<form action="${pageContext.request.contextPath}/phonebook" method="post">
+    <table>
+        <tr>
+            <td>Фамилия:</td>
+            <td><input type="text" name="lastName" required></td>
+        </tr>
+        <tr>
+            <td>Телефон:</td>
+            <td><input type="text" name="phoneNumber" required></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Добавить"></td>
+        </tr>
+    </table>
+</form>
 </body>
 </html>

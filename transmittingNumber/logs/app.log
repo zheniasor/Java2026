@@ -1,0 +1,40 @@
+2026-02-19 10:50:26.450 [http-nio-8080-exec-5] INFO  com.example.transmittingnumber.Controller - Сервлет инициализирован
+2026-02-19 10:50:26.479 [http-nio-8080-exec-5] DEBUG com.example.transmittingnumber.Controller - Получен параметр num: 14
+2026-02-19 10:50:26.479 [http-nio-8080-exec-5] INFO  com.example.transmittingnumber.Controller - Результат вычисления: 14 * 2 = 28
+2026-02-19 12:41:33.982 [http-nio-8080-exec-8] DEBUG com.example.transmittingnumber.Controller - Получен параметр num: 166
+2026-02-19 12:41:34.023 [http-nio-8080-exec-8] INFO  com.example.transmittingnumber.Controller - Результат вычисления: 166 * 2 = 332
+2026-02-22 11:46:11.356 [main] INFO  com.example.transmittingnumber.Controller - Сервлет уничтожен
+2026-02-24 15:25:52.364 [http-nio-8080-exec-6] INFO  com.example.transmittingnumber.dao.PhoneBookDAO - MySQL JDBC Driver загружен
+2026-02-24 15:25:52.393 [http-nio-8080-exec-6] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Инициализация PhoneBookServlet
+2026-02-24 15:25:53.104 [http-nio-8080-exec-6] INFO  com.example.transmittingnumber.dao.PhoneBookDAO - Таблица создана или уже существует
+2026-02-24 15:25:53.121 [http-nio-8080-exec-6] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - PhoneBookServlet инициализирован
+2026-02-24 15:25:53.122 [http-nio-8080-exec-6] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Получен POST запрос
+2026-02-24 15:25:53.130 [http-nio-8080-exec-6] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Получены данные: фамилия=Петров, телефон=231122121
+2026-02-24 15:25:53.135 [http-nio-8080-exec-6] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Добавление записи: Петров
+2026-02-24 15:25:53.136 [http-nio-8080-exec-6] INFO  com.example.transmittingnumber.dao.PhoneBookDAO - Попытка добавить запись: Петров, 231122121
+2026-02-24 15:25:53.184 [http-nio-8080-exec-6] INFO  com.example.transmittingnumber.dao.PhoneBookDAO - Запись успешно добавлена
+2026-02-24 15:25:53.185 [http-nio-8080-exec-6] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Запись успешно добавлена в БД
+2026-02-24 15:25:53.198 [http-nio-8080-exec-7] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Получен GET запрос
+2026-02-24 15:25:53.199 [http-nio-8080-exec-7] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Параметр action: list
+2026-02-24 15:25:53.199 [http-nio-8080-exec-7] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Запрос списка всех записей
+2026-02-24 15:25:53.199 [http-nio-8080-exec-7] INFO  com.example.transmittingnumber.dao.PhoneBookDAO - Запрос всех записей из БД
+2026-02-24 15:25:53.269 [http-nio-8080-exec-7] INFO  com.example.transmittingnumber.dao.PhoneBookDAO - Загружено записей: 3
+2026-02-24 15:25:53.272 [http-nio-8080-exec-7] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Загружено записей: 3
+2026-02-24 15:25:53.556 [http-nio-8080-exec-7] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Страница phonebook.jsp отображена
+2026-02-26 09:51:10.527 [http-nio-8080-exec-9] INFO  com.example.transmittingnumber.dao.PhoneBookDAO - MySQL JDBC Driver загружен
+2026-02-26 09:51:10.544 [http-nio-8080-exec-9] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Инициализация PhoneBookServlet
+2026-02-26 09:51:11.240 [http-nio-8080-exec-9] INFO  com.example.transmittingnumber.dao.PhoneBookDAO - Таблица создана или уже существует
+2026-02-26 09:51:11.259 [http-nio-8080-exec-9] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - PhoneBookServlet инициализирован
+2026-02-26 09:51:11.259 [http-nio-8080-exec-9] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Получен POST запрос
+2026-02-26 09:51:11.265 [http-nio-8080-exec-9] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Получены данные: фамилия=Козловская, телефон=297288155
+2026-02-26 09:51:11.268 [http-nio-8080-exec-9] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Добавление записи: Козловская
+2026-02-26 09:51:11.269 [http-nio-8080-exec-9] INFO  com.example.transmittingnumber.dao.PhoneBookDAO - Попытка добавить запись: Козловская, 297288155
+2026-02-26 09:51:11.535 [http-nio-8080-exec-9] INFO  com.example.transmittingnumber.dao.PhoneBookDAO - Запись успешно добавлена
+2026-02-26 09:51:11.536 [http-nio-8080-exec-9] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Запись успешно добавлена в БД
+2026-02-26 09:51:11.555 [http-nio-8080-exec-10] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Получен GET запрос
+2026-02-26 09:51:11.556 [http-nio-8080-exec-10] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Параметр action: list
+2026-02-26 09:51:11.556 [http-nio-8080-exec-10] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Запрос списка всех записей
+2026-02-26 09:51:11.556 [http-nio-8080-exec-10] INFO  com.example.transmittingnumber.dao.PhoneBookDAO - Запрос всех записей из БД
+2026-02-26 09:51:11.613 [http-nio-8080-exec-10] INFO  com.example.transmittingnumber.dao.PhoneBookDAO - Загружено записей: 4
+2026-02-26 09:51:11.614 [http-nio-8080-exec-10] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Загружено записей: 4
+2026-02-26 09:51:11.918 [http-nio-8080-exec-10] INFO  com.example.transmittingnumber.controller.PhoneBookServlet - Страница phonebook.jsp отображена
